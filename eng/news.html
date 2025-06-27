@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Arkadia Studio – News</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/news.css">
+</head>
+
+<body>
+
+    <!-- HEADER & NAVBAR -->
+    <header>
+        <nav class="navbar">
+            <!-- Hamburger button (mobile only) -->
+            <button class="nav-toggle" aria-label="Open menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Games</a></li>
+                <li><a href="#" class="nav-contact">Contact</a></li>
+            </ul>
+            <a href="#" class="nav-search" aria-label="Search">
+                <img src="../img/Search.png" alt="Search">
+            </a>
+            <a href="../news.html" class="nav-language" aria-label="Change language">
+                <i class="fa-solid fa-language"></i>
+            </a>
+        </nav>
+    </header>
+
+    <!-- HERO: Latest NEWS -->
+    <section class="hero news-hero">
+        <div class="hero-overlay"></div>
+        <div class="news-container">
+            <div class="news-header">
+                <h2>Latest <span>NEWS</span></h2>
+            </div>
+            <div class="news-grid">
+                <article class="news-card">
+                    <div class="card-image">
+                        <img src="../img/Ejemplo_2.png" alt="News 1">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-tag">GAME CONTENT</span>
+                        <time datetime="2025-06-12">JUN 12, 2025</time>
+                        <h3>Lorem ipsum dolor sit amet</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit…</p>
+                        <a href="#" class="read-more">✤ READ MORE</a>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <div class="card-image">
+                        <img src="../img/Ejemplo_2.png" alt="News 2">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-tag">GAME CONTENT</span>
+                        <time datetime="2025-06-11">JUN 11, 2025</time>
+                        <h3>Ut enim ad minim veniam</h3>
+                        <p>Quis nostrud exercitation ullamco laboris nisi…</p>
+                        <a href="#" class="read-more">✤ READ MORE</a>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <div class="card-image">
+                        <img src="../img/Ejemplo_2.png" alt="News 3">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-tag">INFORMATION</span>
+                        <time datetime="2025-06-06">JUN 6, 2025</time>
+                        <h3>Duis aute irure dolor in</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit…</p>
+                        <a href="#" class="read-more">✤ READ MORE</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- MORE NEWS -->
+    <section class="more-news" id="more-news">
+        <div class="more-news__inner">
+
+            <!-- Filter sidebar -->
+            <aside class="news-filter">
+                <h4 class="news-filter__title">Filter by</h4>
+                <button class="news-filter__select">
+                    ✤ Categories
+                    <i class="fa fa-chevron-down"></i>
+                </button>
+            </aside>
+
+            <!-- Main content: news list -->
+            <div class="news-list">
+                <div class="news-list__header">
+                    <div class="news-list__decor">✤</div>
+                    <h2>More <span>NEWS</span></h2>
+                </div>
+
+                <ul class="news-list__items">
+                    <li class="news-item">
+                        <div class="news-item__thumb">
+                            <img src="../img/Ejemplo_2.png" alt="News item 1">
+                        </div>
+                        <div class="news-item__body">
+                            <span class="news-item__tag">COMMUNITY</span>
+                            <time datetime="2025-06-20" class="news-item__date">today</time>
+                            <h3 class="news-item__title">CLAN CODEX – JUNE HIGHLIGHT</h3>
+                            <p class="news-item__text">Hello Paxians, new month, new edition of the Clan Codex…</p>
+                            <a href="#" class="news-item__read">✤ READ MORE</a>
+                        </div>
+                        <div class="news-item__edge"></div>
+                    </li>
+                    <li class="news-item">
+                        <div class="news-item__thumb">
+                            <img src="../img/Ejemplo_2.png" alt="News item 2">
+                        </div>
+                        <div class="news-item__body">
+                            <span class="news-item__tag">COMMUNITY</span>
+                            <time datetime="2025-06-15" class="news-item__date">5 days ago</time>
+                            <h3 class="news-item__title">THE REDEEMERS’ SONG – A MUSICAL CHALLENGE</h3>
+                            <p class="news-item__text">Hello Paxians, in our latest lore updates…</p>
+                            <a href="#" class="news-item__read">✤ READ MORE</a>
+                        </div>
+                        <div class="news-item__edge"></div>
+                    </li>
+                    <li class="news-item">
+                        <div class="news-item__thumb">
+                            <img src="../img/Ejemplo_2.png" alt="News item 3">
+                        </div>
+                        <div class="news-item__body">
+                            <span class="news-item__tag">GAME CONTENT</span>
+                            <time datetime="2025-06-12" class="news-item__date">Jun 12, 2025</time>
+                            <h3 class="news-item__title">AUDIO Q&A – VERSE 3</h3>
+                            <p class="news-item__text">Following the Q&A from early June…</p>
+                            <a href="#" class="news-item__read">✤ READ MORE</a>
+                        </div>
+                        <div class="news-item__edge"></div>
+                    </li>
+                    <li class="news-item">
+                        <div class="news-item__thumb">
+                            <img src="../img/Ejemplo_2.png" alt="News item 4">
+                        </div>
+                        <div class="news-item__body">
+                            <span class="news-item__tag">GAME CONTENT</span>
+                            <time datetime="2025-06-11" class="news-item__date">Jun 11, 2025</time>
+                            <h3 class="news-item__title">PATH OF THE ADVENTURER – PATCH NOTES</h3>
+                            <p class="news-item__text">This update significantly changes core systems…</p>
+                            <a href="#" class="news-item__read">✤ READ MORE</a>
+                        </div>
+                        <div class="news-item__edge"></div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-community">
+            <div class="footer-community-header">
+                <h2 class="footer-header">Our</h2>
+                <h2 class="footer-title"><span>Community</span></h2>
+                <div class="social-icons">
+                    <i class="fa-brands fa-discord"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+            <p class="footer-desc">
+                Curious about our work? Join our great community!
+            </p>
+        </div>
+
+        <div class="footer-main">
+            <div class="footer-badges">
+                <img src="../img/Nvidia.png" alt="GeForce Now">
+            </div>
+            <div class="footer-platforms">
+                <img src="../img/unreal.png" alt="Unreal Engine">
+                <img src="../img/unity.png" alt="Unity">
+                <img src="../img/Steam.png" alt="Steam">
+                <img src="../img/Epic_Games.png" alt="Epic Games">
+            </div>
+            <div class="footer-logo">
+                <img src="../img/logo_grande.png" alt="Arkadia Studio">
+            </div>
+            <div class="footer-social">
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-discord"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div class="footer-legal">
+                <a href="#" class="nav-legal">Legal</a>
+                <a href="#" class="nav-contact">Contact</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2025 Arkadia Studio. All rights reserved.<br>We build worlds with passion.</p>
+        </div>
+    </footer>
+
+    <!-- Contact Modal -->
+    <div id="contactModal" class="modal-overlay">
+        <div class="modal">
+            <button class="modal-close" aria-label="Close">&times;</button>
+            <h2>Contact</h2>
+            <form>
+                <input type="text" name="fullName" placeholder="Full name" required>
+                <input type="email" name="email" placeholder="Email address" required>
+                <input type="text" name="subject" placeholder="Subject" required>
+                <select name="queryType" id="tipoSelect" required>
+                    <option value="" disabled selected>Select a query type</option>
+                    <option value="general">General</option>
+                    <option value="press">Press / Media</option>
+                    <option value="work">Work with us</option>
+                    <option value="error">Report an error</option>
+                    <option value="other">Other</option>
+                </select>
+                <div id="cvUpload" class="form-group" style="display:none; margin-top:1rem;">
+                    <label for="cv">Attach your CV (PDF, DOC…)</label>
+                    <input type="file" name="cv" id="cv" accept=".pdf,.doc,.docx">
+                </div>
+                <textarea name="message" placeholder="Your message..." rows="5" required></textarea>
+                <label>
+                    <input type="checkbox" required>
+                    I accept the privacy policy
+                </label>
+                <button type="submit" class="btn-submit">Send</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Legal Modal -->
+    <div id="legalModal" class="modal-overlay">
+        <div class="modal">
+            <button class="modal-close" aria-label="Close">&times;</button>
+            <h2>Legal</h2>
+            <div class="legal-content">
+                <h3>Terms & Conditions</h3>
+                <p>
+                    Use of this website implies acceptance of the following terms and conditions. Arkadia Studio
+                    reserves the right to modify the content, structure and services offered on the site without
+                    prior notice.
+                </p>
+                <p>
+                    All content, including images, text, logos and graphic materials, belongs to Arkadia Studio or
+                    is used under license. Full or partial reproduction without prior written permission is not
+                    allowed.
+                </p>
+                <p>
+                    The user agrees to use this site responsibly and not to perform actions that could damage,
+                    overload, or impair its operation.
+                </p>
+                <h3>🔐 Privacy Policy</h3>
+                <p>
+                    Arkadia Studio is committed to protecting users' privacy. If personal information is requested
+                    (e.g., via a contact form), it will be used solely for internal communication purposes and
+                    will not be shared with third parties without consent.
+                </p>
+                <p>
+                    The site may use minimal necessary cookies for its operation, but does not collect sensitive
+                    data or track users for commercial purposes.
+                </p>
+                <button id="legalClose" class="btn-submit">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/responsive.js"></script>
+    <script src="../js/modal.js"></script>
+</body>
+
+</html>

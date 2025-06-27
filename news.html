@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Arkadia Estudio – Noticias</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/news.css">
+</head>
+
+<body>
+
+    <!-- HEADER & NAV -->
+
+    <header>
+        <nav class="navbar">
+            <!-- Botón hamburguesa (solo en móvil) -->
+            <button class="nav-toggle" aria-label="Abrir menú">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <ul class="nav-list">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="news.html">Noticias</a></li>
+                <li><a href="#">Juegos</a></li>
+                <li><a href="#" class="nav-contact">Contacto</a></li>
+            </ul>
+            <a href="#" class="nav-search" aria-label="Buscar">
+                <img src="img/Search.png" alt="Buscar">
+            </a>
+            <a href="eng/index.html" class="nav-language" aria-label="Cambiar idioma">
+                <i class="fa-solid fa-language"></i>
+            </a>
+        </nav>
+    </header>
+
+    <!-- HERO: Últimas Noticias -->
+
+    <section class="hero news-hero">
+        <div class="hero-overlay"></div>
+        <div class="news-container">
+            <div class="news-header">
+                <h2>Últimas <span>Noticias</span></h2>
+            </div>
+            <div class="news-grid">
+                <article class="news-card">
+                    <div class="card-image">
+                        <img src="img/Ejemplo_2.png" alt="Noticia 1">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-tag">CONTENIDO DE JUEGO</span>
+                        <time datetime="2025-06-12">12 JUN, 2025</time>
+                        <h3>Lorem ipsum dolor sit amet</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit…</p>
+                        <a href="#" class="read-more">✤ LEER MÁS</a>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <div class="card-image">
+                        <img src="img/Ejemplo_2.png" alt="Noticia 2">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-tag">CONTENIDO DE JUEGO</span>
+                        <time datetime="2025-06-11">11 JUN, 2025</time>
+                        <h3>Ut enim ad minim veniam</h3>
+                        <p>Quis nostrud exercitation ullamco laboris nisi…</p>
+                        <a href="#" class="read-more">✤ LEER MÁS</a>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <div class="card-image">
+                        <img src="img/Ejemplo_2.png" alt="Noticia 3">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-tag">INFORMACIÓN</span>
+                        <time datetime="2025-06-06">6 JUN, 2025</time>
+                        <h3>Duis aute irure dolor in</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit…</p>
+                        <a href="#" class="read-more">✤ LEER MÁS</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- MÁS NOTICIAS -->
+
+    <section class="more-news" id="latest-news">
+        <div class="more-news__inner">
+
+            <!-- Sidebar de filtro -->
+            <aside class="news-filter">
+                <h4 class="news-filter__title">Filtrar por</h4>
+                <button class="news-filter__select">
+                    ✤ Categorías
+                    <i class="fa fa-chevron-down"></i>
+                </button>
+            </aside>
+
+            <!-- Lista de noticias -->
+            <div class="news-list">
+                <div class="news-list__header">
+                    <div class="news-list__decor">✤</div>
+                    <h2>MÁS <span>NOTICIAS</span></h2>
+                </div>
+
+                <ul class="news-list__items">
+                    <li class="news-item">
+                        <div class="news-item__thumb">
+                            <img src="img/Ejemplo_2.png" alt="Noticia 1">
+                        </div>
+                        <div class="news-item__body">
+                            <span class="news-item__tag">COMUNIDAD</span>
+                            <time datetime="2025-06-20" class="news-item__date">hoy</time>
+                            <h3 class="news-item__title">CLAN CODEX – DESTACADO DE JUNIO</h3>
+                            <p class="news-item__text">Hola Paxians, nuevo mes, nueva edición del Clan Codex…</p>
+                            <a href="#" class="news-item__read">✤ LEER MÁS</a>
+                        </div>
+                        <div class="news-item__edge"></div>
+                    </li>
+                    <li class="news-item">
+                        <div class="news-item__thumb">
+                            <img src="img/Ejemplo_2.png" alt="Noticia 2">
+                        </div>
+                        <div class="news-item__body">
+                            <span class="news-item__tag">COMUNIDAD</span>
+                            <time datetime="2025-06-15" class="news-item__date">hace 5 días</time>
+                            <h3 class="news-item__title">LA CANCIÓN DE LOS REDENTORES – UN RETO MUSICAL</h3>
+                            <p class="news-item__text">Hola Paxians, en nuestras últimas actualizaciones de lore…</p>
+                            <a href="#" class="news-item__read">✤ LEER MÁS</a>
+                        </div>
+                        <div class="news-item__edge"></div>
+                    </li>
+                    <li class="news-item">
+                        <div class="news-item__thumb">
+                            <img src="img/Ejemplo_2.png" alt="Noticia 3">
+                        </div>
+                        <div class="news-item__body">
+                            <span class="news-item__tag">CONTENIDO DE JUEGO</span>
+                            <time datetime="2025-06-12" class="news-item__date">12 JUN, 2025</time>
+                            <h3 class="news-item__title">PREGUNTAS Y RESPUESTAS – VERSO 3</h3>
+                            <p class="news-item__text">Tras el Q&A de principios de junio…</p>
+                            <a href="#" class="news-item__read">✤ LEER MÁS</a>
+                        </div>
+                        <div class="news-item__edge"></div>
+                    </li>
+                    <li class="news-item">
+                        <div class="news-item__thumb">
+                            <img src="img/Ejemplo_2.png" alt="Noticia 4">
+                        </div>
+                        <div class="news-item__body">
+                            <span class="news-item__tag">CONTENIDO DE JUEGO</span>
+                            <time datetime="2025-06-11" class="news-item__date">11 JUN, 2025</time>
+                            <h3 class="news-item__title">CAMINO DEL AVENTURERO – NOTAS DE PARCHE</h3>
+                            <p class="news-item__text">Esta actualización cambia significativamente sistemas clave…</p>
+                            <a href="#" class="news-item__read">✤ LEER MÁS</a>
+                        </div>
+                        <div class="news-item__edge"></div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+        <div class="footer-community">
+            <div class="footer-community-header">
+                <h2 class="footer-header">Nuestra</h2>
+                <h2 class="footer-title"><span>Comunidad</span></h2>
+                <div class="social-icons">
+                    <i class="fa-brands fa-discord"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+            <p class="footer-desc">
+                ¿Curioso por nuestro trabajo? ¡Únete a nuestra gran comunidad!
+            </p>
+        </div>
+
+        <div class="footer-main">
+            <div class="footer-badges">
+                <img src="img/Nvidia.png" alt="GeForce Now">
+            </div>
+            <div class="footer-platforms">
+                <img src="img/unreal.png" alt="Unreal Engine">
+                <img src="img/unity.png" alt="Unity">
+                <img src="img/Steam.png" alt="Steam">
+                <img src="img/Epic_Games.png" alt="Epic Games">
+            </div>
+            <div class="footer-logo">
+                <img src="img/logo_grande.png" alt="Arkadia Estudio">
+            </div>
+            <div class="footer-social">
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-discord"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div class="footer-legal">
+                <a href="#" class="nav-legal">Legal</a>
+                <a href="#" class="nav-contact">Contacto</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2025 Arkadia Estudio. Todos los derechos reservados.<br>Desarrollamos mundos con pasión.</p>
+        </div>
+    </footer>
+
+    <!-- Modal Contacto -->
+    <div id="contactModal" class="modal-overlay">
+        <div class="modal">
+            <button class="modal-close" aria-label="Cerrar">&times;</button>
+            <h2>Contacto</h2>
+            <form>
+                <input type="text" name="nombre" placeholder="Nombre completo" required>
+                <input type="email" name="email" placeholder="Correo electrónico" required>
+                <input type="text" name="asunto" placeholder="Asunto" required>
+                <select name="tipo" id="tipoSelect" required>
+                    <option value="" disabled selected>Seleccioná un tipo de consulta</option>
+                    <option value="general">General</option>
+                    <option value="prensa">Prensa / Media</option>
+                    <option value="trabajo">Trabajar con nosotros</option>
+                    <option value="error">Reporte de error</option>
+                    <option value="otro">Otro</option>
+                </select>
+                <div id="cvUpload" class="form-group" style="display:none; margin-top:1rem;">
+                    <label for="cv">Adjuntá tu CV (PDF, DOC…)</label>
+                    <input type="file" name="cv" id="cv" accept=".pdf,.doc,.docx">
+                </div>
+                <textarea name="mensaje" placeholder="Tu mensaje..." rows="5" required></textarea>
+                <label>
+                    <input type="checkbox" required>
+                    Acepto la política de privacidad
+                </label>
+                <button type="submit" class="btn-submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Modal Legal -->
+    <div id="legalModal" class="modal-overlay">
+        <div class="modal">
+            <button class="modal-close" aria-label="Cerrar">&times;</button>
+            <h2>Legal</h2>
+            <div class="legal-content">
+                <h3>Términos y Condiciones</h3>
+                <p>
+                    El uso de este sitio web implica la aceptación de los siguientes términos y condiciones. Arkadia
+                    Estudio
+                    se reserva el derecho de modificar el contenido, estructura y servicios ofrecidos en el sitio sin
+                    previo
+                    aviso.
+                </p>
+                <p>
+                    Todo el contenido, incluyendo imágenes, textos, logotipos y materiales gráficos, pertenece a Arkadia
+                    Estudio o ha sido utilizado con licencia. No está permitida su reproducción total o parcial sin
+                    autorización previa y por escrito.
+                </p>
+                <p>
+                    El usuario se compromete a utilizar este sitio de forma responsable y a no realizar acciones que
+                    puedan
+                    dañar, sobrecargar o deteriorar el funcionamiento del mismo.
+                </p>
+                <h3>🔐 Política de Privacidad</h3>
+                <p>
+                    Arkadia Estudio se compromete a proteger la privacidad de los usuarios. Si en algún momento se
+                    solicita
+                    información personal (por ejemplo, a través de un formulario de contacto), esta será utilizada
+                    únicamente con fines internos de comunicación y no será compartida con terceros sin consentimiento.
+                </p>
+                <p>
+                    El sitio puede utilizar cookies mínimas necesarias para su funcionamiento, pero no recopila datos
+                    sensibles ni rastrea a los usuarios con fines comerciales.
+                </p>
+                <button id="legalClose" class="btn-submit">Cerrar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/responsive.js"></script>
+    <script src="js/modal.js"></script>
+</body>
+
+</html>
